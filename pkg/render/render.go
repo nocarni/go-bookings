@@ -52,7 +52,6 @@ func CreateTemplateCache() (map[string]*template.Template, error) {
 
 	// get all of the files from templates
 	pages, err := filepath.Glob("./templates/*.html")
-
 	if err != nil {
 		return myCache, err
 	}

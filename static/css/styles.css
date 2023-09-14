@@ -13,3 +13,15 @@
 .datepicker {
   z-index: 10000
 }
+
+.my-footer {
+    height: 5em;
+    background-color: green;
+    margin-top: 2em;
+    padding: 1em;
+    color: white;
+}
+
+.room-image {
+    max-width: 50%;
+}
