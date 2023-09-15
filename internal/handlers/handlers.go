@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"noahcarniglia/bookings/pkg/config"
-	"noahcarniglia/bookings/pkg/models"
-	"noahcarniglia/bookings/pkg/render"
+	"noahcarniglia/bookings/internal/config"
+	"noahcarniglia/bookings/internal/models"
+	"noahcarniglia/bookings/internal/render"
 )
 
 var Repo *Repository

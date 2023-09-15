@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"noahcarniglia/bookings/pkg/config"
-	"noahcarniglia/bookings/pkg/handlers"
-	"noahcarniglia/bookings/pkg/render"
+	"noahcarniglia/bookings/internal/config"
+	"noahcarniglia/bookings/internal/handlers"
+	"noahcarniglia/bookings/internal/render"
 	"time"
 
 	"github.com/alexedwards/scs/v2"

@@ -2,8 +2,8 @@ package main
 
 import (
 	"net/http"
-	"noahcarniglia/bookings/pkg/config"
-	"noahcarniglia/bookings/pkg/handlers"
+	"noahcarniglia/bookings/internal/config"
+	"noahcarniglia/bookings/internal/handlers"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

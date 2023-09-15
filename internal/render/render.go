@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"log"
 	"net/http"
-	"noahcarniglia/bookings/pkg/config"
-	"noahcarniglia/bookings/pkg/models"
+	"noahcarniglia/bookings/internal/config"
+	"noahcarniglia/bookings/internal/models"
 	"path/filepath"
 
 	"github.com/justinas/nosurf"
