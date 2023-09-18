@@ -1,11 +1,13 @@
 package main
 
 import (
+	"encoding/gob"
 	"fmt"
 	"log"
 	"net/http"
 	"noahcarniglia/bookings/internal/config"
 	"noahcarniglia/bookings/internal/handlers"
+	"noahcarniglia/bookings/internal/models"
 	"noahcarniglia/bookings/internal/render"
 	"time"
 
@@ -18,7 +20,7 @@ var app config.AppConfig
 var session *scs.SessionManager
 
 func main() {
-
+	gob.Register(models.Reservation{})
 	// change this to true when in production
 	app.InProduction = false
 
