@@ -1,0 +1,12 @@
+mode: set
+noahcarniglia/bookings/cmd/web/main.go:22.13,24.16 2 0
+noahcarniglia/bookings/cmd/web/main.go:24.16,26.3 1 0
+noahcarniglia/bookings/cmd/web/main.go:27.2,34.16 4 0
+noahcarniglia/bookings/cmd/web/main.go:37.18,51.16 10 1
+noahcarniglia/bookings/cmd/web/main.go:51.16,54.3 2 0
+noahcarniglia/bookings/cmd/web/main.go:56.2,63.12 6 1
+noahcarniglia/bookings/cmd/web/middleware.go:10.53,11.71 1 0
+noahcarniglia/bookings/cmd/web/middleware.go:11.71,14.3 2 0
+noahcarniglia/bookings/cmd/web/middleware.go:17.45,27.2 3 1
+noahcarniglia/bookings/cmd/web/middleware.go:29.50,31.2 1 1
+noahcarniglia/bookings/cmd/web/routes.go:12.49,37.2 18 1
